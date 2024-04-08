@@ -1,4 +1,4 @@
-# This script takes the large training set and splits it into folders by celebrity
+# This script takes the large testing set, finds faces, crops to those faces, and resizes the image.
 
 import cv2
 import numpy as np
