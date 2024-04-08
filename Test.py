@@ -1,3 +1,5 @@
+# This file loads the trained model, feeds the processed testing data into it, predicts the celebrity, and compiles all predictions into a .csv
+
 import cv2
 import numpy as np
 import pandas as pd
