@@ -1,4 +1,5 @@
-# This script takes the large training set and splits it into folders by celebrity. It reserves the last x% for validation
+# This script takes the large training set, finds faces, crops to those faces, and resizes the image. 
+# After many attempts, if no face is found, the image is omitted from the training set.
 
 import cv2
 import numpy as np
