@@ -1,5 +1,4 @@
-
-
+# This file creates the NN model based on the source below, loads the processed training data, reserves some for validation, and trains then saves the model.
 # Model borrowed from: https://www.kaggle.com/hereisburak/pins-face-recognition
 
 import os
